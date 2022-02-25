@@ -4,6 +4,7 @@ body {
   background: url(https://cdn.britannica.com/58/142358-050-073045C5/Sheet-music-notation.jpg)
     no-repeat center top / cover fixed;
   background-position: right 3px center;
+  text-transform: capitalize;
 }
 .article-content {
   /* position: relative;
