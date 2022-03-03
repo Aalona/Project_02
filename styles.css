@@ -1,49 +1,57 @@
 body {
-  font-family: "Raleway", sans-serif;
-  padding: 30px;
-  background: url(https://cdn.britannica.com/58/142358-050-073045C5/Sheet-music-notation.jpg)
-    no-repeat center top / cover fixed;
-  background-position: right 3px center;
-}
-.article-content {
-  /* position: relative;
-  min-height: 1px; */
-  padding: 30px;
-  border: 1px solid rgb(141, 139, 139);
-  margin-bottom: 30px;
-  background: rgb(228, 225, 222);
+	padding: 30px;
+	background: url(https://cdn.britannica.com/58/142358-050-073045C5/Sheet-music-notation.jpg)
+	  no-repeat center top / cover fixed;
+	background-position: right 3px center;
+ }
+ .article-content {
+	/* position: relative;
+	min-height: 1px; */
+	padding: 30px;
+	border: 1px solid rgb(141, 139, 139);
+	margin-bottom: 30px;
+	background: rgb(228, 225, 222);
+ }
+ 
+ article img {
+	max-width: 100%;
+	height: auto;
+ }
+ 
+ article {
+	padding: 0 15px 0 15px;
+	display: block;
+	text-transform: capitalize;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.5em;
+	
+ }
+ 
+.article-content{
+	color: rgb(38, 2, 70);
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
-article img {
-  max-width: 100%;
-  height: auto;
+span{
+	text-shadow: 2px 1px rgb(119, 114, 114);
 }
+ .begin{
+	 color: rgb(247, 247, 252);
+	 text-align: center;
+	 border: 2px solid rgb(141, 139, 139);
+	 background-color: rgb(228, 225, 222);
+	 font-family: 'Cormorant Garamond', serif;
+	 margin-bottom: 15px;
+	 text-transform: uppercase;
+	 padding-bottom: 10px;
+	 word-spacing: 30px;
+	 text-shadow: 2px 2px #4d4848;
+ }
 
-article {
-  padding: 0 15px 0 15px;
-  display: block;
-  text-transform: capitalize;
-}
-
-h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-}
-
-/* mobile */
-/* max-width 767px */
-/* @media (max-width: 767px) {
-  .row {
-    width: 100%;
-    margin-top: 7px;
-  }
-  .tarticle-content {
-    width: 100%;
-    margin-left: 10px;
-  }
-} */
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-}
+ @media (min-width: 767px) and (max-width: 991px) {
+	 .row {
+		 width: 100%;
+	 }
+ }
