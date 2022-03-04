@@ -11,6 +11,9 @@ body {
 	border: 1px solid rgb(141, 139, 139);
 	margin-bottom: 30px;
 	background: rgb(228, 225, 222);
+	color: rgb(38, 2, 70);
+	margin-top: 20px;
+	text-transform: uppercase;
  }
  
  article img {
@@ -27,13 +30,6 @@ body {
 	
  }
  
-.article-content{
-	color: rgb(38, 2, 70);
-	margin-top: 20px;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-}
-
 span{
 	text-shadow: 2px 1px rgb(119, 114, 114);
 }
@@ -48,10 +44,4 @@ span{
 	 padding-bottom: 10px;
 	 word-spacing: 30px;
 	 text-shadow: 2px 2px #4d4848;
- }
-
- @media (min-width: 767px) and (max-width: 991px) {
-	 .row {
-		 width: 100%;
-	 }
  }
